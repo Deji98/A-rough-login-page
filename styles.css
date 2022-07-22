@@ -55,6 +55,10 @@ form p {
   color: #fff;
 }
 
+#pswd {
+  padding-top: 20px;
+}
+
 form input {
   width: 100%;
   margin-bottom: 5%;
@@ -69,6 +73,7 @@ form input[type="password"] {
   height: 7vh;
   color: #fff;
   font-size: 16px;
+  padding-top: 25px;
 }
 
 ::placeholder {
