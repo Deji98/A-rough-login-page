@@ -120,11 +120,11 @@ button {
   padding-top: 10%;
 }
 
-@media screen and (min-width: 200px) and (max-width: 800px) {
+@media screen and (min-width: 200px) and (max-width: 780px) {
   .welcome {
     background-color: blue;
     width: 70%;
-    height: 7ch;
+    height: 7vh;
     margin-top: 20%;
   }
 
