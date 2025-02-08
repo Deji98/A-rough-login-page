@@ -27,7 +27,6 @@ main {
   background-color: rgb(255, 0, 187);
   width: 40%;
   height: 60vh;
-
   margin-top: 10%;
 }
 
@@ -121,11 +120,11 @@ button {
   padding-top: 10%;
 }
 
-@media screen and (min-width: 200px) and (max-width: 700px) {
+@media screen and (min-width: 200px) and (max-width: 800px) {
   .welcome {
     background-color: blue;
-    width: 40%;
-    height: 50vh;
+    width: 70%;
+    height: 7ch;
     margin-top: 20%;
   }
 
@@ -134,5 +133,11 @@ button {
     width: 40%;
     height: 50vh;
     margin-top: 20%;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 10%;
   }
 }
